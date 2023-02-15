@@ -1,0 +1,313 @@
+body {
+    text-align: center;
+    margin: auto 0px;
+    padding: 0px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 10px;
+ 
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#menu {
+
+    width: 100%;
+    height:80px;
+    padding:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:fixed;
+    top:0;
+    z-index: 20;
+    box-shadow:0 0 10px black;
+    background-color: #8d1a25;
+}
+
+#menu > ul {
+    margin: auto;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: fit-content;
+    gap:15px;
+}
+
+#menu > ul > li {
+    display: inline-block;
+}
+
+#menu > ul > li > a {
+    font-size:15px;
+    letter-spacing: 4px;
+    font-weight:bold;
+    text-decoration: none;
+    background-color: #500a11;
+    color:white;
+    padding:10px 20px;
+    border-radius: 4px;
+}
+
+#menu > ul > li > a:hover {
+    color: #8d1a25;
+    background-color:white;
+    padding:10px 20px;
+
+}
+
+#header {
+
+    margin: auto;
+    margin-top:100px;
+    height: fit-content;
+    width: 80%;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 0 10px black;
+    background-color: #500a11;
+}
+
+#header:hover  {
+    background-color: #8d1a25;
+}
+
+h1, p {
+    color: white;
+}
+
+p {
+    text-align:justify;
+}
+
+#imgs {
+    margin: auto;
+    margin-top:20px;
+    height: fit-content;
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    padding: 20px;
+    padding-top: 0px;
+    gap: 5px;
+}
+
+#imgs > div {
+    height:fit-content;
+    width:30%;
+    background-color: #500a11;
+    padding:20px;
+    box-shadow: 0 0 10px black;
+    border-radius: 4px;
+}
+
+#imgs > div:hover {
+    background-color:#8d1a25;
+    cursor: pointer;
+}
+
+#imgs > div > img {
+    height:300px;
+    width:100%;
+}
+
+#imgs > div > h1, p {
+    color: white;
+}
+
+#imgs > div > p {
+    text-align: justify;
+    font-size: 14px;
+}
+
+#gototop {
+    position: fixed;
+    bottom:50px;
+    right:10px;
+    background-color: #500a11;
+    color: white;
+    padding:10px 20px;
+    border: none;
+    border-radius: 4px;
+}
+
+#gototop:hover {
+    background-color: white;
+    color:#500a11;
+    cursor: pointer;
+}
+
+h1.tutorials {
+    margin: auto;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 60px;
+    letter-spacing: 4px;
+    color: #500a11;
+}
+
+#tutorials {
+    height: fit-content;
+    width:100%;
+    color: #500a11;
+    margin: auto;
+    margin-top:10px;
+    padding:10px;
+    box-sizing: border-box;
+    border-radius: 4px;
+
+  
+}
+
+#tutorials > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap:10px;
+    background-color: #500a11;
+    padding: 10px;
+}
+
+
+img.text {
+    height:350px;
+    width:500px;
+    border: 2px solid #ffffff;
+    
+}
+
+#tutorials > div > p {
+    color:white;
+}
+
+#examples {
+    
+    background-image: url("img/three.jpg");
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    height:600px;
+    width:90%;
+    background-color: #500a11;
+    margin: auto;
+    margin-top:10px;
+    padding:20px;
+    box-sizing: border-box;
+    border: 3px solid #500a11;
+    border-radius: 4px;
+    text-align: center;
+
+
+
+}
+
+#examples > h1 {
+    margin: auto;
+    margin-top: 200px;
+    color:white;
+    font-size:60px;
+
+}
+
+#examples > p {
+    margin: auto;
+    margin-top: 5px;
+    color: white;
+    font-size:14px;
+    text-align: center;
+}
+
+#contact {
+    
+    
+    height:fit-content;
+    width:90%;
+    background-color: #500a11;
+    margin: auto;
+    margin-top:10px;
+    padding:10px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+    border: 3px solid #500a11;
+    border-radius: 4px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h1.contact {
+font-size:30px;
+letter-spacing: 4px;
+}
+
+#contact > form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    border-radius: 3px;
+}
+
+#contact > form > input {
+    height:40px;
+    width: 300px;
+    text-align: center;
+    
+}
+
+#contact > form > input:focus {
+    outline: none;
+}
+
+
+label {
+    color: white;
+}
+
+input.submit {
+    background-color: forestgreen;
+    color: white;
+    margin: auto;
+    margin-top:20px;
+    border: none;
+    height: 50px !important;
+    border-radius: 4px;
+}
+
+input.submit:hover {
+    background-color: rgb(67, 170, 67);
+    cursor:pointer;
+}
+
+#footer {
+    height: 40px;
+    background-color: #500a11;
+    color: white;
+    margin: auto;
+    margin-top: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    border-radius: 3px;
+}
+
+a.vedat {
+    color: white;
+    text-decoration: none;
+    letter-spacing: 4px;
+}
+
+a.vedat:hover {
+    text-decoration: underline;
+}
